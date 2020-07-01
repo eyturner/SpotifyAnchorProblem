@@ -25,6 +25,7 @@ This simply finds ***one*** posssible solution
 that the letter 'a' is not removed, we can simply remove it from the hash table before running the main program.
 
 - I had originally solved this problem via the Knapsack problem, but upon closer analysis, a dynamic programming solution was not required. 
+Using the knapsack problem as an analogy, we can think of the "weight" of each character as the frequency with which it appears in the string, and the "value" of each character as the length it adds to our final set. Since each character has the same length (1), they are all of equal "value"! So all we need to do is add the "lightest" items (i.e. the least frequent characters) to our "knapsack". This can be solved much more clearly with a greedy-type solution.
 
 Thanks again, and I look forward to hearing from you!
  
