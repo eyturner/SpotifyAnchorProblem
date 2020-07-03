@@ -16,7 +16,7 @@ And that's it! The output is a unique set of characters to remove from the origi
 Overall time complexity: O(n * log(n)).
 Overall space complexity: O(n) (to make the hash table)
 
-Some additional notes thoughts:
+Some additional thoughts:
 
 - While this program guarantees a unique set of characters to meet the limit, it's always possible that other unique sets exist. 
 This simply finds ***one*** posssible solution
